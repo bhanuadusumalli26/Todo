@@ -1,0 +1,57 @@
+############################
+# Java / Spring Boot
+############################
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# Gradle
+.gradle/
+build/
+
+############################
+# Application Config (Secrets)
+############################
+
+src/main/resources/application.yml
+src/main/resources/application.yaml
+src/main/resources/application.properties
+
+############################
+# IDE Files
+############################
+
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+############################
+# OS Files
+############################
+
+.DS_Store
+Thumbs.db
+
+############################
+# VS Code
+############################
+
+.vscode/
+
+############################
+# Misc
+############################
+
+coverage/
